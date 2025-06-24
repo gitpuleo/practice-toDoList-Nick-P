@@ -5,6 +5,27 @@
   text-align: center;
 }
 
+.header {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline dotted;
+  margin: 1em;
+  padding: 25px;
+}
+
+.todo-list {
+  list-style-type: square;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.todo-list li:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
